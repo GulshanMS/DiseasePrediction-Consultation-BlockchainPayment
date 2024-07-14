@@ -1,0 +1,195 @@
+body {
+  padding-bottom: 50px;
+}
+
+#predict {
+  position: static;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+#predicted-data {
+  margin-top: 5% !important;
+  width: 40%;
+  background: rgba(3, 169, 244, 0.48);
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  text-shadow: -5px 5px 6px white;
+  box-shadow: 3px 1px 3px 0px #607d8b;
+  display: inline-block;
+}
+
+#inputsym {
+  position: fixed;
+  right: 100px;
+}
+
+.symptoms {
+  border: ridge rgb(150, 177, 199);
+  margin: 2px;
+  display: block;
+  text-align: center;
+  padding: 0px !important;
+  background-color: #fdffff;
+  text-shadow: 0px 1px 20px rgba(3, 169, 244, 0.78);
+  box-shadow: 0px 8px 16px 0px rgba(78, 191, 243, 0.05);
+  width: 300px;
+}
+
+#symptoms-box {
+  position: static;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  background-color: #e9ecef !important;
+  min-height: 300px;
+  padding: 10px 10px 10px 10px;
+}
+
+.card-body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropbtn {
+  position: relative;
+  left: 50%;
+  width: 150px;
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  left: 40%;
+}
+
+#container-dropdown {
+  min-width: 1130px;
+  min-height: 200px;
+}
+
+.drop-content {
+  left: 30%;
+  right: 30%;
+  display: none;
+  background-color: #fdffff;
+  text-shadow: 0px 1px 20px rgb(7, 97, 231);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-item {
+  position: relative;
+  min-width: 100px;
+  text-align: center !important;
+  width: auto !important;
+  display: inline-block;
+  cursor: pointer;
+  clear: both;
+  text-align: center;
+  border: 0;
+  margin: 10px !important;
+  background-color: #fdffff;
+  text-shadow: 0px 1px 20px rgba(3, 169, 244, 0.78);
+  box-shadow: 0px 8px 16px 0px rgba(3, 169, 244, 0.05);
+  line-height: 2;
+  padding: 4px !important;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(90, 181, 241);
+}
+
+.show {
+  display: inline-block;
+}
+
+#searchbar {
+  margin: 0 auto; /* Center the search bar horizontally */
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+#searchbardiv {
+  padding: 10px;
+  text-align: center; /* Center the search bar container */
+  margin-bottom: 20px; /* Add some gap below the search bar */
+}
+
+#container-dropdown {
+  min-width: 100px;
+  max-height: 400px; /* smaller box height */
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap; /* allows multiple columns */
+  justify-content: space-around; /* Align items to the start to avoid extra space */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding-right: 15px; /* Space for scrollbar */
+}
+
+#container-dropdown ol {
+  list-style: decimal inside;
+  padding: 0;
+  margin: 0;
+  column-count: 2; /* two columns */
+  column-gap: 10px; /* space between columns */
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  display: list-item;
+  width: calc(
+    50% - 10px
+  ); /* Adjust width to fit two columns without extra space */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#consult-btn {
+  display: none;
+  margin: 20px auto; /* Centers the button horizontally and adds padding to the top */
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.searchbardiv {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+#myDropdown {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0;
+}
+
+/* New styles for remove button */
+.remove-btn {
+  font-size: 12px; /* Smaller font size */
+  padding: 4px 8px; /* Adjust padding for smaller button */
+  margin: 2px; /* Small margin */
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.remove-btn:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
