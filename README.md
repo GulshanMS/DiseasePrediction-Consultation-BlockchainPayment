@@ -104,3 +104,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 
 For any queries or issues, please contact us at [msgulshan926@gmail.com](mailto:your-email@example.com).
+
+## Teammates:
+- [Nithin K](https://github.com/Nithin-Krishnappa)
+- [Kamalesh N](https://github.com/kamaleshgowda)
